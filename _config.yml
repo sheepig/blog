@@ -73,7 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: ocean
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +82,12 @@ deploy:
   type: git
   repo: git@github.com:sheepig/sheepig.github.io.git
   branch: master
+
+# Gitalk
+gitalk:
+  enable: false      # 是否启用，默认：false（关闭），true（启用）
+  clientID: 0e7bd7f1f653adfc8ad5     # 申请 GitHub Application 网页上对应的 Client ID 与 Client Secret 参数
+  clientSecret: 141626c9ca2f813e26a402c7610d70a0a7e18fd2     # 同上
+  repo: sheepig.github.io     # 创建的仓库名称
+  owner: sheepig     # Github ID
+  admin: sheepig     # Github ID
